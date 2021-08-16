@@ -1,0 +1,400 @@
+2021-08-15 09:33:17 INFO  [4505559] TreeFrog Framework version 2.0.2
+2021-08-15 09:33:17 INFO  [4505559] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 09:33:17 INFO  [4505559] TreeFrog application servers started up.
+2021-08-15 09:34:32 WARN  [4508163] Reading a socket timed out after 10 seconds. Descriptor:12
+2021-08-15 09:34:53 WARN  [4509661] Reading a socket timed out after 10 seconds. Descriptor:12
+2021-08-15 09:49:41 WARN  [4561556] Reading a socket timed out after 10 seconds. Descriptor:12
+2021-08-15 09:50:51 WARN  [4563798] Reading a socket timed out after 10 seconds. Descriptor:12
+2021-08-15 09:51:03 WARN  [4564282] Reading a socket timed out after 10 seconds. Descriptor:12
+2021-08-15 09:51:18 WARN  [4564892] Reading a socket timed out after 10 seconds. Descriptor:12
+2021-08-15 12:59:30 INFO  [4505559] TreeFrog application servers shutting down
+2021-08-15 12:59:31 INFO  [4505559] TreeFrog application servers shutdown completed
+2021-08-15 14:01:15 INFO  [4850472] TreeFrog Framework version 2.0.2
+2021-08-15 14:01:15 INFO  [4850472] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 14:01:15 INFO  [4850472] TreeFrog application servers started up.
+2021-08-15 14:01:34 WARN  [4850780] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 14:02:11 WARN  [4850918] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 14:28:33 WARN  [4892142] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:23:32 INFO  [4850472] TreeFrog application servers shutting down
+2021-08-15 18:23:33 INFO  [4850472] TreeFrog application servers shutdown completed
+2021-08-15 18:24:09 INFO  [5204941] TreeFrog Framework version 2.0.2
+2021-08-15 18:24:09 INFO  [5204941] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 18:24:09 INFO  [5204941] TreeFrog application servers started up.
+2021-08-15 18:24:30 WARN  [5205557] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:25:01 WARN  [5205778] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:40:46 INFO  [5204941] TreeFrog application servers shutting down
+2021-08-15 18:40:47 INFO  [5204941] TreeFrog application servers shutdown completed
+2021-08-15 18:43:41 INFO  [5249784] TreeFrog Framework version 2.0.2
+2021-08-15 18:43:41 INFO  [5249784] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 18:43:41 INFO  [5249784] TreeFrog application servers started up.
+2021-08-15 18:44:44 WARN  [5251056] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:47:18 INFO  [5249784] TreeFrog application servers shutting down
+2021-08-15 18:47:19 INFO  [5249784] TreeFrog application servers shutdown completed
+2021-08-15 18:47:38 INFO  [5257642] TreeFrog Framework version 2.0.2
+2021-08-15 18:47:38 INFO  [5257642] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 18:47:38 INFO  [5257642] TreeFrog application servers started up.
+2021-08-15 18:48:12 WARN  [5258256] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:49:04 WARN  [5259530] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:49:50 WARN  [5260743] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:50:11 WARN  [5261159] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 18:50:24 INFO  [5257642] TreeFrog application servers shutting down
+2021-08-15 18:50:24 INFO  [5257642] TreeFrog application servers shutdown completed
+2021-08-15 18:51:01 INFO  [5262862] TreeFrog Framework version 2.0.2
+2021-08-15 18:51:01 INFO  [5262862] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 18:51:01 INFO  [5262862] TreeFrog application servers started up.
+2021-08-15 18:51:57 WARN  [5264062] Reading a socket timed out after 10 seconds. Descriptor:10
+2021-08-15 18:58:34 INFO  [5262862] TreeFrog application servers shutting down
+2021-08-15 18:58:35 INFO  [5262862] TreeFrog application servers shutdown completed
+2021-08-15 18:59:18 INFO  [5279318] TreeFrog Framework version 2.0.2
+2021-08-15 18:59:18 INFO  [5279318] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 18:59:18 INFO  [5279318] TreeFrog application servers started up.
+2021-08-15 19:03:56 WARN  [5285346] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-15 19:06:27 INFO  [5279318] TreeFrog application servers shutting down
+2021-08-15 19:06:28 INFO  [5279318] TreeFrog application servers shutdown completed
+2021-08-15 19:10:18 INFO  [5295860] TreeFrog Framework version 2.0.2
+2021-08-15 19:10:18 INFO  [5295860] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 19:10:18 INFO  [5295860] TreeFrog application servers started up.
+2021-08-15 19:10:39 WARN  [5296431] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 19:10:50 WARN  [5296669] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 19:11:19 WARN  [5297087] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 19:11:39 WARN  [5297584] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 19:16:35 WARN  [5308330] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 19:16:47 WARN  [5308713] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 19:17:06 WARN  [5309241] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 19:17:20 WARN  [5309766] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 20:57:38 WARN  [5565257] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 20:57:49 WARN  [5565398] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 21:00:15 WARN  [5572272] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 21:00:24 INFO  [5295860] TreeFrog application servers shutting down
+2021-08-15 21:00:25 INFO  [5295860] TreeFrog application servers shutdown completed
+2021-08-15 21:01:06 INFO  [5573870] TreeFrog Framework version 2.0.2
+2021-08-15 21:01:06 INFO  [5573870] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 21:01:06 INFO  [5573870] TreeFrog application servers started up.
+2021-08-15 21:01:21 WARN  [5574144] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 21:01:34 INFO  [5573870] TreeFrog application servers shutting down
+2021-08-15 21:01:35 INFO  [5573870] TreeFrog application servers shutdown completed
+2021-08-15 21:01:48 INFO  [5575386] TreeFrog Framework version 2.0.2
+2021-08-15 21:01:48 INFO  [5575386] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 21:01:48 INFO  [5575386] TreeFrog application servers started up.
+2021-08-15 21:02:09 WARN  [5575678] Reading a socket timed out after 10 seconds. Descriptor:14
+2021-08-15 21:02:53 WARN  [5576537] Reading a socket timed out after 10 seconds. Descriptor:14
+2021-08-15 21:03:30 WARN  [5580187] Reading a socket timed out after 10 seconds. Descriptor:14
+2021-08-15 21:04:00 WARN  [5581685] Reading a socket timed out after 10 seconds. Descriptor:14
+2021-08-15 22:21:17 INFO  [5575386] TreeFrog application servers shutting down
+2021-08-15 22:21:18 INFO  [5575386] TreeFrog application servers shutdown completed
+2021-08-15 22:21:32 INFO  [5645109] TreeFrog Framework version 2.0.2
+2021-08-15 22:21:32 INFO  [5645109] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 22:21:32 INFO  [5645109] TreeFrog application servers started up.
+2021-08-15 22:35:58 WARN  [5684419] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 22:35:59 INFO  [5645109] TreeFrog application servers shutting down
+2021-08-15 22:36:00 INFO  [5645109] TreeFrog application servers shutdown completed
+2021-08-15 22:36:11 INFO  [5686898] TreeFrog Framework version 2.0.2
+2021-08-15 22:36:11 INFO  [5686898] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 22:36:11 INFO  [5686898] TreeFrog application servers started up.
+2021-08-15 22:36:35 WARN  [5688280] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-15 22:37:16 WARN  [5691960] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-15 22:39:07 INFO  [5686898] TreeFrog application servers shutting down
+2021-08-15 22:39:07 INFO  [5686898] TreeFrog application servers shutdown completed
+2021-08-15 22:39:19 INFO  [5703495] TreeFrog Framework version 2.0.2
+2021-08-15 22:39:19 INFO  [5703495] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 22:39:19 INFO  [5703495] TreeFrog application servers started up.
+2021-08-15 22:39:34 INFO  [5703495] TreeFrog application servers shutting down
+2021-08-15 22:39:34 INFO  [5703495] TreeFrog application servers shutdown completed
+2021-08-15 22:40:02 INFO  [5706851] TreeFrog Framework version 2.0.2
+2021-08-15 22:40:02 INFO  [5706851] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 22:40:02 INFO  [5706851] TreeFrog application servers started up.
+2021-08-15 22:42:31 INFO  [5706851] TreeFrog application servers shutting down
+2021-08-15 22:42:32 INFO  [5706851] TreeFrog application servers shutdown completed
+2021-08-15 22:42:47 INFO  [5721055] TreeFrog Framework version 2.0.2
+2021-08-15 22:42:47 INFO  [5721055] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-15 22:42:47 INFO  [5721055] TreeFrog application servers started up.
+2021-08-15 22:43:44 WARN  [5724010] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-15 22:43:55 WARN  [5725125] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 01:02:19 INFO  [5721055] TreeFrog application servers shutting down
+2021-08-16 01:02:20 INFO  [5721055] TreeFrog application servers shutdown completed
+2021-08-16 01:04:04 INFO  [6223485] TreeFrog Framework version 2.0.2
+2021-08-16 01:04:04 INFO  [6223485] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:04:04 INFO  [6223485] TreeFrog application servers started up.
+2021-08-16 01:05:41 INFO  [6223485] TreeFrog application servers shutting down
+2021-08-16 01:05:42 INFO  [6223485] TreeFrog application servers shutdown completed
+2021-08-16 01:11:12 INFO  [6240218] TreeFrog Framework version 2.0.2
+2021-08-16 01:11:12 INFO  [6240218] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:11:12 INFO  [6240218] TreeFrog application servers started up.
+2021-08-16 01:11:16 INFO  [6240218] TreeFrog application servers shutting down
+2021-08-16 01:11:16 INFO  [6240218] TreeFrog application servers shutdown completed
+2021-08-16 01:12:13 INFO  [6243046] TreeFrog Framework version 2.0.2
+2021-08-16 01:12:13 INFO  [6243046] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:12:13 INFO  [6243046] TreeFrog application servers started up.
+2021-08-16 01:14:46 INFO  [6243046] TreeFrog application servers shutting down
+2021-08-16 01:14:47 INFO  [6243046] TreeFrog application servers shutdown completed
+2021-08-16 01:16:57 INFO  [6251509] TreeFrog Framework version 2.0.2
+2021-08-16 01:16:57 INFO  [6251509] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:16:57 INFO  [6251509] TreeFrog application servers started up.
+2021-08-16 01:20:29 INFO  [6251509] TreeFrog application servers shutting down
+2021-08-16 01:20:30 INFO  [6251509] TreeFrog application servers shutdown completed
+2021-08-16 01:20:41 INFO  [6257860] TreeFrog Framework version 2.0.2
+2021-08-16 01:20:41 INFO  [6257860] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:20:41 INFO  [6257860] TreeFrog application servers started up.
+2021-08-16 01:22:21 INFO  [6257860] TreeFrog application servers shutting down
+2021-08-16 01:22:21 INFO  [6257860] TreeFrog application servers shutdown completed
+2021-08-16 01:22:32 INFO  [6261227] TreeFrog Framework version 2.0.2
+2021-08-16 01:22:32 INFO  [6261227] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:22:32 INFO  [6261227] TreeFrog application servers started up.
+2021-08-16 01:24:28 INFO  [6261227] TreeFrog application servers shutting down
+2021-08-16 01:24:28 INFO  [6261227] TreeFrog application servers shutdown completed
+2021-08-16 01:24:38 INFO  [6264923] TreeFrog Framework version 2.0.2
+2021-08-16 01:24:38 INFO  [6264923] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:24:38 INFO  [6264923] TreeFrog application servers started up.
+2021-08-16 01:25:28 INFO  [6264923] TreeFrog application servers shutting down
+2021-08-16 01:25:28 INFO  [6264923] TreeFrog application servers shutdown completed
+2021-08-16 01:25:37 INFO  [6266662] TreeFrog Framework version 2.0.2
+2021-08-16 01:25:37 INFO  [6266662] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:25:37 INFO  [6266662] TreeFrog application servers started up.
+2021-08-16 01:28:25 INFO  [6266662] TreeFrog application servers shutting down
+2021-08-16 01:28:25 INFO  [6266662] TreeFrog application servers shutdown completed
+2021-08-16 01:28:34 INFO  [6272332] TreeFrog Framework version 2.0.2
+2021-08-16 01:28:34 INFO  [6272332] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:28:34 INFO  [6272332] TreeFrog application servers started up.
+2021-08-16 01:29:08 INFO  [6272332] TreeFrog application servers shutting down
+2021-08-16 01:29:09 INFO  [6272332] TreeFrog application servers shutdown completed
+2021-08-16 01:29:18 INFO  [6274611] TreeFrog Framework version 2.0.2
+2021-08-16 01:29:18 INFO  [6274611] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:29:18 INFO  [6274611] TreeFrog application servers started up.
+2021-08-16 01:29:57 INFO  [6274611] TreeFrog application servers shutting down
+2021-08-16 01:29:58 INFO  [6274611] TreeFrog application servers shutdown completed
+2021-08-16 01:30:06 INFO  [6276335] TreeFrog Framework version 2.0.2
+2021-08-16 01:30:06 INFO  [6276335] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:30:06 INFO  [6276335] TreeFrog application servers started up.
+2021-08-16 01:30:40 INFO  [6276335] TreeFrog application servers shutting down
+2021-08-16 01:30:40 INFO  [6276335] TreeFrog application servers shutdown completed
+2021-08-16 01:30:49 INFO  [6278173] TreeFrog Framework version 2.0.2
+2021-08-16 01:30:49 INFO  [6278173] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:30:49 INFO  [6278173] TreeFrog application servers started up.
+2021-08-16 01:31:11 INFO  [6278173] TreeFrog application servers shutting down
+2021-08-16 01:31:12 INFO  [6278173] TreeFrog application servers shutdown completed
+2021-08-16 01:31:20 INFO  [6280211] TreeFrog Framework version 2.0.2
+2021-08-16 01:31:20 INFO  [6280211] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:31:20 INFO  [6280211] TreeFrog application servers started up.
+2021-08-16 01:32:17 INFO  [6280211] TreeFrog application servers shutting down
+2021-08-16 01:32:18 INFO  [6280211] TreeFrog application servers shutdown completed
+2021-08-16 01:32:27 INFO  [6284152] TreeFrog Framework version 2.0.2
+2021-08-16 01:32:27 INFO  [6284152] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:32:27 INFO  [6284152] TreeFrog application servers started up.
+2021-08-16 01:35:55 INFO  [6284152] TreeFrog application servers shutting down
+2021-08-16 01:35:55 INFO  [6284152] TreeFrog application servers shutdown completed
+2021-08-16 01:36:05 INFO  [6291801] TreeFrog Framework version 2.0.2
+2021-08-16 01:36:05 INFO  [6291801] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:36:05 INFO  [6291801] TreeFrog application servers started up.
+2021-08-16 01:37:03 INFO  [6291801] TreeFrog application servers shutting down
+2021-08-16 01:37:04 INFO  [6291801] TreeFrog application servers shutdown completed
+2021-08-16 01:37:12 INFO  [6294284] TreeFrog Framework version 2.0.2
+2021-08-16 01:37:12 INFO  [6294284] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:37:12 INFO  [6294284] TreeFrog application servers started up.
+2021-08-16 01:37:37 INFO  [6294284] TreeFrog application servers shutting down
+2021-08-16 01:37:37 INFO  [6294284] TreeFrog application servers shutdown completed
+2021-08-16 01:37:46 INFO  [6295492] TreeFrog Framework version 2.0.2
+2021-08-16 01:37:46 INFO  [6295492] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:37:46 INFO  [6295492] TreeFrog application servers started up.
+2021-08-16 01:39:32 INFO  [6295492] TreeFrog application servers shutting down
+2021-08-16 01:39:32 INFO  [6295492] TreeFrog application servers shutdown completed
+2021-08-16 01:39:41 INFO  [6299551] TreeFrog Framework version 2.0.2
+2021-08-16 01:39:41 INFO  [6299551] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:39:41 INFO  [6299551] TreeFrog application servers started up.
+2021-08-16 01:41:47 INFO  [6299551] TreeFrog application servers shutting down
+2021-08-16 01:41:47 INFO  [6299551] TreeFrog application servers shutdown completed
+2021-08-16 01:41:56 INFO  [6304456] TreeFrog Framework version 2.0.2
+2021-08-16 01:41:56 INFO  [6304456] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:41:56 INFO  [6304456] TreeFrog application servers started up.
+2021-08-16 01:43:12 INFO  [6304456] TreeFrog application servers shutting down
+2021-08-16 01:43:12 INFO  [6304456] TreeFrog application servers shutdown completed
+2021-08-16 01:43:21 INFO  [6307174] TreeFrog Framework version 2.0.2
+2021-08-16 01:43:21 INFO  [6307174] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:43:21 INFO  [6307174] TreeFrog application servers started up.
+2021-08-16 01:43:42 INFO  [6307174] TreeFrog application servers shutting down
+2021-08-16 01:43:42 INFO  [6307174] TreeFrog application servers shutdown completed
+2021-08-16 01:43:52 INFO  [6308970] TreeFrog Framework version 2.0.2
+2021-08-16 01:43:52 INFO  [6308970] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:43:52 INFO  [6308970] TreeFrog application servers started up.
+2021-08-16 01:44:37 INFO  [6308970] TreeFrog application servers shutting down
+2021-08-16 01:44:37 INFO  [6308970] TreeFrog application servers shutdown completed
+2021-08-16 01:44:47 INFO  [6310971] TreeFrog Framework version 2.0.2
+2021-08-16 01:44:47 INFO  [6310971] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:44:47 INFO  [6310971] TreeFrog application servers started up.
+2021-08-16 01:53:45 INFO  [6310971] TreeFrog application servers shutting down
+2021-08-16 01:53:46 INFO  [6310971] TreeFrog application servers shutdown completed
+2021-08-16 01:54:43 INFO  [6333492] TreeFrog Framework version 2.0.2
+2021-08-16 01:54:43 INFO  [6333492] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:54:43 INFO  [6333492] TreeFrog application servers started up.
+2021-08-16 01:56:46 INFO  [6333492] TreeFrog application servers shutting down
+2021-08-16 01:56:46 INFO  [6333492] TreeFrog application servers shutdown completed
+2021-08-16 01:57:11 INFO  [6338721] TreeFrog Framework version 2.0.2
+2021-08-16 01:57:11 INFO  [6338721] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 01:57:11 INFO  [6338721] TreeFrog application servers started up.
+2021-08-16 01:57:46 WARN  [6339648] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:01:06 INFO  [6338721] TreeFrog application servers shutting down
+2021-08-16 02:01:07 INFO  [6338721] TreeFrog application servers shutdown completed
+2021-08-16 02:01:16 INFO  [6346166] TreeFrog Framework version 2.0.2
+2021-08-16 02:01:16 INFO  [6346166] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:01:16 INFO  [6346166] TreeFrog application servers started up.
+2021-08-16 02:03:34 INFO  [6346166] TreeFrog application servers shutting down
+2021-08-16 02:03:34 INFO  [6346166] TreeFrog application servers shutdown completed
+2021-08-16 02:03:44 INFO  [6351023] TreeFrog Framework version 2.0.2
+2021-08-16 02:03:44 INFO  [6351023] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:03:44 INFO  [6351023] TreeFrog application servers started up.
+2021-08-16 02:04:08 INFO  [6351023] TreeFrog application servers shutting down
+2021-08-16 02:04:09 INFO  [6351023] TreeFrog application servers shutdown completed
+2021-08-16 02:04:20 INFO  [6352475] TreeFrog Framework version 2.0.2
+2021-08-16 02:04:20 INFO  [6352475] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:04:20 INFO  [6352475] TreeFrog application servers started up.
+2021-08-16 02:04:50 WARN  [6353215] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:05:15 WARN  [6353847] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:05:18 INFO  [6352475] TreeFrog application servers shutting down
+2021-08-16 02:05:18 INFO  [6352475] TreeFrog application servers shutdown completed
+2021-08-16 02:05:29 INFO  [6354893] TreeFrog Framework version 2.0.2
+2021-08-16 02:05:29 INFO  [6354893] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:05:29 INFO  [6354893] TreeFrog application servers started up.
+2021-08-16 02:05:46 WARN  [6355785] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:06:03 WARN  [6356183] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:07:53 WARN  [6358516] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:08:03 INFO  [6354893] TreeFrog application servers shutting down
+2021-08-16 02:08:03 INFO  [6354893] TreeFrog application servers shutdown completed
+2021-08-16 02:08:14 INFO  [6360372] TreeFrog Framework version 2.0.2
+2021-08-16 02:08:14 INFO  [6360372] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:08:14 INFO  [6360372] TreeFrog application servers started up.
+2021-08-16 02:08:44 WARN  [6360679] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:09:24 WARN  [6361496] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:10:04 INFO  [6360372] TreeFrog application servers shutting down
+2021-08-16 02:10:05 INFO  [6360372] TreeFrog application servers shutdown completed
+2021-08-16 02:10:18 INFO  [6364066] TreeFrog Framework version 2.0.2
+2021-08-16 02:10:18 INFO  [6364066] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:10:18 INFO  [6364066] TreeFrog application servers started up.
+2021-08-16 02:10:48 WARN  [6364589] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:15:16 INFO  [6364066] TreeFrog application servers shutting down
+2021-08-16 02:15:16 INFO  [6364066] TreeFrog application servers shutdown completed
+2021-08-16 02:15:33 INFO  [6372911] TreeFrog Framework version 2.0.2
+2021-08-16 02:15:33 INFO  [6372911] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:15:33 INFO  [6372911] TreeFrog application servers started up.
+2021-08-16 02:17:31 INFO  [6372911] TreeFrog application servers shutting down
+2021-08-16 02:17:32 INFO  [6372911] TreeFrog application servers shutdown completed
+2021-08-16 02:17:43 INFO  [6376705] TreeFrog Framework version 2.0.2
+2021-08-16 02:17:43 INFO  [6376705] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:17:43 INFO  [6376705] TreeFrog application servers started up.
+2021-08-16 02:18:09 WARN  [6377056] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:18:21 WARN  [6377515] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:20:53 INFO  [6376705] TreeFrog application servers shutting down
+2021-08-16 02:20:54 INFO  [6376705] TreeFrog application servers shutdown completed
+2021-08-16 02:21:03 INFO  [6381527] TreeFrog Framework version 2.0.2
+2021-08-16 02:21:03 INFO  [6381527] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:21:03 INFO  [6381527] TreeFrog application servers started up.
+2021-08-16 02:21:31 INFO  [6381527] TreeFrog application servers shutting down
+2021-08-16 02:21:31 INFO  [6381527] TreeFrog application servers shutdown completed
+2021-08-16 02:21:46 INFO  [6383271] TreeFrog Framework version 2.0.2
+2021-08-16 02:21:46 INFO  [6383271] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:21:46 INFO  [6383271] TreeFrog application servers started up.
+2021-08-16 02:22:11 WARN  [6383641] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:23:52 INFO  [6383271] TreeFrog application servers shutting down
+2021-08-16 02:23:53 INFO  [6383271] TreeFrog application servers shutdown completed
+2021-08-16 02:24:15 INFO  [6387332] TreeFrog Framework version 2.0.2
+2021-08-16 02:24:15 INFO  [6387332] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:24:15 INFO  [6387332] TreeFrog application servers started up.
+2021-08-16 02:24:30 WARN  [6387684] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:27:30 INFO  [6387332] TreeFrog application servers shutting down
+2021-08-16 02:27:31 INFO  [6387332] TreeFrog application servers shutdown completed
+2021-08-16 02:27:47 INFO  [6394221] TreeFrog Framework version 2.0.2
+2021-08-16 02:27:47 INFO  [6394221] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:27:47 INFO  [6394221] TreeFrog application servers started up.
+2021-08-16 02:28:23 INFO  [6394221] TreeFrog application servers shutting down
+2021-08-16 02:28:23 INFO  [6394221] TreeFrog application servers shutdown completed
+2021-08-16 02:28:43 INFO  [6396111] TreeFrog Framework version 2.0.2
+2021-08-16 02:28:43 INFO  [6396111] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:28:43 INFO  [6396111] TreeFrog application servers started up.
+2021-08-16 02:29:47 WARN  [6396606] Reading a socket timed out after 10 seconds. Descriptor:10
+2021-08-16 02:29:49 INFO  [6396111] TreeFrog application servers shutting down
+2021-08-16 02:29:49 INFO  [6396111] TreeFrog application servers shutdown completed
+2021-08-16 02:29:59 INFO  [6398643] TreeFrog Framework version 2.0.2
+2021-08-16 02:29:59 INFO  [6398643] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:29:59 INFO  [6398643] TreeFrog application servers started up.
+2021-08-16 02:30:29 WARN  [6398925] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:30:49 INFO  [6398643] TreeFrog application servers shutting down
+2021-08-16 02:30:49 WARN  [6400078] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:30:49 INFO  [6398643] TreeFrog application servers shutdown completed
+2021-08-16 02:30:59 INFO  [6400964] TreeFrog Framework version 2.0.2
+2021-08-16 02:30:59 INFO  [6400964] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:30:59 INFO  [6400964] TreeFrog application servers started up.
+2021-08-16 02:31:22 WARN  [6401185] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:31:39 WARN  [6402036] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:31:56 WARN  [6402378] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:32:24 WARN  [6403769] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:33:32 INFO  [6400964] TreeFrog application servers shutting down
+2021-08-16 02:33:33 INFO  [6400964] TreeFrog application servers shutdown completed
+2021-08-16 02:33:41 INFO  [6406597] TreeFrog Framework version 2.0.2
+2021-08-16 02:33:41 INFO  [6406597] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:33:41 INFO  [6406597] TreeFrog application servers started up.
+2021-08-16 02:34:02 WARN  [6406931] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:34:20 WARN  [6407590] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:34:50 WARN  [6408531] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:35:50 WARN  [6410249] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:35:59 INFO  [6406597] TreeFrog application servers shutting down
+2021-08-16 02:36:00 INFO  [6406597] TreeFrog application servers shutdown completed
+2021-08-16 02:36:10 INFO  [6411429] TreeFrog Framework version 2.0.2
+2021-08-16 02:36:10 INFO  [6411429] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:36:10 INFO  [6411429] TreeFrog application servers started up.
+2021-08-16 02:36:23 WARN  [6411600] Reading a socket timed out after 10 seconds. Descriptor:10
+2021-08-16 02:36:41 INFO  [6411429] TreeFrog application servers shutting down
+2021-08-16 02:36:41 INFO  [6411429] TreeFrog application servers shutdown completed
+2021-08-16 02:36:50 INFO  [6413016] TreeFrog Framework version 2.0.2
+2021-08-16 02:36:50 INFO  [6413016] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:36:50 INFO  [6413016] TreeFrog application servers started up.
+2021-08-16 02:37:17 WARN  [6413404] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:39:55 INFO  [6413016] TreeFrog application servers shutting down
+2021-08-16 02:39:55 INFO  [6413016] TreeFrog application servers shutdown completed
+2021-08-16 02:40:41 INFO  [6419087] TreeFrog Framework version 2.0.2
+2021-08-16 02:40:41 INFO  [6419087] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:40:41 INFO  [6419087] TreeFrog application servers started up.
+2021-08-16 02:41:34 WARN  [6420043] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:45:06 WARN  [6426014] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 02:46:39 INFO  [6419087] TreeFrog application servers shutting down
+2021-08-16 02:46:40 INFO  [6419087] TreeFrog application servers shutdown completed
+2021-08-16 02:47:24 INFO  [6430545] TreeFrog Framework version 2.0.2
+2021-08-16 02:47:24 INFO  [6430545] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:47:24 INFO  [6430545] TreeFrog application servers started up.
+2021-08-16 02:48:03 WARN  [6430944] Reading a socket timed out after 10 seconds. Descriptor:10
+2021-08-16 02:49:03 INFO  [6430545] TreeFrog application servers shutting down
+2021-08-16 02:49:04 INFO  [6430545] TreeFrog application servers shutdown completed
+2021-08-16 02:49:13 INFO  [6435022] TreeFrog Framework version 2.0.2
+2021-08-16 02:49:13 INFO  [6435022] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:49:13 INFO  [6435022] TreeFrog application servers started up.
+2021-08-16 02:57:29 INFO  [6435022] TreeFrog application servers shutting down
+2021-08-16 02:57:30 INFO  [6435022] TreeFrog application servers shutdown completed
+2021-08-16 02:57:37 INFO  [6450232] TreeFrog Framework version 2.0.2
+2021-08-16 02:57:37 INFO  [6450232] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 02:57:37 INFO  [6450232] TreeFrog application servers started up.
+2021-08-16 02:58:01 WARN  [6450871] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:58:18 WARN  [6451259] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 02:59:37 WARN  [6453254] Reading a socket timed out after 10 seconds. Descriptor:11
+2021-08-16 03:01:23 INFO  [6450232] TreeFrog application servers shutting down
+2021-08-16 03:01:24 INFO  [6450232] TreeFrog application servers shutdown completed
+2021-08-16 03:01:43 INFO  [6458091] TreeFrog Framework version 2.0.2
+2021-08-16 03:01:43 INFO  [6458091] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 03:01:43 INFO  [6458091] TreeFrog application servers started up.
+2021-08-16 03:02:10 WARN  [6458683] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 03:02:21 INFO  [6458091] TreeFrog application servers shutting down
+2021-08-16 03:02:21 INFO  [6458091] TreeFrog application servers shutdown completed
+2021-08-16 03:02:39 INFO  [6460593] TreeFrog Framework version 2.0.2
+2021-08-16 03:02:39 INFO  [6460593] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 03:02:39 INFO  [6460593] TreeFrog application servers started up.
+2021-08-16 03:02:56 WARN  [6460763] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 03:05:25 INFO  [6460593] TreeFrog application servers shutting down
+2021-08-16 03:05:26 INFO  [6460593] TreeFrog application servers shutdown completed
+2021-08-16 03:05:37 INFO  [6465008] TreeFrog Framework version 2.0.2
+2021-08-16 03:05:37 INFO  [6465008] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 03:05:37 INFO  [6465008] TreeFrog application servers started up.
+2021-08-16 03:09:15 INFO  [6465008] TreeFrog application servers shutting down
+2021-08-16 03:09:15 INFO  [6465008] TreeFrog application servers shutdown completed
+2021-08-16 03:09:32 INFO  [6471896] TreeFrog Framework version 2.0.2
+2021-08-16 03:09:32 INFO  [6471896] Execution environment: Qt 6.1.2 / macOS 10.15
+2021-08-16 03:09:32 INFO  [6471896] TreeFrog application servers started up.
+2021-08-16 03:09:52 WARN  [6472053] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 03:12:34 WARN  [6475822] Reading a socket timed out after 10 seconds. Descriptor:13
+2021-08-16 03:12:48 INFO  [6471896] TreeFrog application servers shutting down
+2021-08-16 03:12:48 INFO  [6471896] TreeFrog application servers shutdown completed

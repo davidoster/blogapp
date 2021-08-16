@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<%#include "objects/user.h" %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+
+<h1>Listing User</h1>
+<h4>Welcome, <% tehex(username); %> - <%== linkTo("Logout", QUrl("/account/logout")) %></h4>
+<%== linkTo("Create a new User", urla("create")) %><br />
+<br />
+<table border="1" cellpadding="5" style="border: 1px #d0d0d0 solid; border-collapse: collapse;">
+  <tr>
+    <th>Username</th>
+    <th>Password</th>
+  </tr>
+<% tfetch(QList<User>, userList); %>
+<% for (const auto &i : userList) { %>
+  <tr>
+    <td><%= i.username() %></td>
+    <td><%= i.password() %></td>
+    <td>
+      <%== linkTo("Show", urla("show", i.username())) %>
+      <%== linkTo("Edit", urla("save", i.username())) %>
+      <%== linkTo("Remove", urla("remove", i.username()), Tf::Post, "confirm('Are you sure?')") %>
+    </td>
+  </tr>
+<% } %>
+</table>
+
+</body>
+</html>

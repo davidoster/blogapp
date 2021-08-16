@@ -1,0 +1,517 @@
+2021-08-15 09:34:14  [4508163] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 09:34:14  [4508163] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 09:34:14  [4508163] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 09:34:14  [4508163] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 09:34:14  [4508163] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:34:14  [4508163] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 09:34:14  [4508163] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:34:36  [4509661] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:34:36  [4509661] INSERT INTO `blog` (`title`, `body`, `created_at`, `updated_at`, `lock_revision`) VALUES ('My Blog', 'Just a blog', '2021-08-15T09:34:36', '2021-08-15T09:34:36', 1)
+2021-08-15 09:34:36  [4509661] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:34:36  [4509661] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:34:36  [4509661] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-15 09:34:36  [4509661] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:34:43  [4509661] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:34:43  [4509661] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 09:34:43  [4509661] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:50:40  [4563798] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:50:41  [4563798] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-15 09:50:41  [4563798] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:50:53  [4564282] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:50:53  [4564282] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-15 09:50:53  [4564282] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:51:04  [4564892] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:51:04  [4564892] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 AND t0.`lock_revision`=1 LIMIT 1
+2021-08-15 09:51:04  [4564892] UPDATE blog SET body='Just a blog!!!',updated_at='2021-08-15T09:51:04',lock_revision=2 WHERE lock_revision=1 AND id=1
+2021-08-15 09:51:04  [4564892] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:51:04  [4564892] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:51:04  [4564892] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-15 09:51:04  [4564892] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 09:51:08  [4564892] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 09:51:08  [4564892] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 09:51:08  [4564892] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:01:37  [4850918] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 14:01:37  [4850918] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 14:01:37  [4850918] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 14:01:37  [4850918] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 14:01:37  [4850918] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:01:37  [4850918] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 14:01:37  [4850918] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:01:42  [4850918] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:01:42  [4850918] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-15 14:01:42  [4850918] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:01:47  [4850918] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:01:47  [4850918] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-15 14:01:47  [4850918] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:01:49  [4850918] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:01:49  [4850918] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 14:01:49  [4850918] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:01:59  [4850918] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:01:59  [4850918] INSERT INTO `blog` (`title`, `body`, `created_at`, `updated_at`, `lock_revision`) VALUES ('AAA', 'AAAA', '2021-08-15T14:01:59', '2021-08-15T14:01:59', 1)
+2021-08-15 14:01:59  [4850918] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:01:59  [4850918] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:01:59  [4850918] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=2 LIMIT 1
+2021-08-15 14:01:59  [4850918] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:02:01  [4850918] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:02:01  [4850918] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 14:02:01  [4850918] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 14:28:23  [4892142] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 14:28:23  [4892142] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 14:28:23  [4892142] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:24:34  [5205778] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 18:24:34  [5205778] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 18:24:34  [5205778] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 18:24:34  [5205778] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 18:24:34  [5205778] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:24:34  [5205778] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 18:24:34  [5205778] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:24:47  [5205778] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:24:48  [5205778] INSERT INTO `blog` (`title`, `body`, `created_at`, `updated_at`, `lock_revision`) VALUES ('BBB', 'BBB', '2021-08-15T18:24:47', '2021-08-15T18:24:47', 1)
+2021-08-15 18:24:48  [5205778] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:24:48  [5205778] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:24:48  [5205778] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=3 LIMIT 1
+2021-08-15 18:24:48  [5205778] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:24:51  [5205778] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:24:51  [5205778] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 18:24:51  [5205778] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:44:27  [5251056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 18:44:27  [5251056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 18:44:27  [5251056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 18:44:27  [5251056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 18:44:27  [5251056] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:44:27  [5251056] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 18:44:27  [5251056] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:44:34  [5251056] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:44:34  [5251056] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 18:44:34  [5251056] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:47:56  [5258256] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 18:47:56  [5258256] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 18:47:56  [5258256] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 18:47:56  [5258256] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 18:47:56  [5258256] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:47:56  [5258256] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 18:47:56  [5258256] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:48:54  [5259530] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:48:54  [5259530] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 18:48:54  [5259530] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:49:40  [5260743] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:49:40  [5260743] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 18:49:40  [5260743] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:51:47  [5264062] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 18:51:47  [5264062] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 18:51:47  [5264062] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 18:51:47  [5264062] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 18:51:47  [5264062] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:51:47  [5264062] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 18:51:47  [5264062] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 18:51:47  [5264062] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 18:51:47  [5264062] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 18:51:47  [5264062] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:03:27  [5285346] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 19:03:27  [5285346] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 19:03:27  [5285346] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 19:03:27  [5285346] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 19:03:27  [5285346] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:03:27  [5285346] SELECT `username`,`password` FROM `user` t0
+2021-08-15 19:03:27  [5285346] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:03:43  [5285346] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:03:43  [5285346] INSERT INTO `user` (`username`, `password`) VALUES ('aaa', 'aaa')
+2021-08-15 19:03:43  [5285346] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:03:43  [5285346] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:03:43  [5285346] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='aaa' LIMIT 1
+2021-08-15 19:03:43  [5285346] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:03:46  [5285346] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:03:46  [5285346] SELECT `username`,`password` FROM `user` t0
+2021-08-15 19:03:46  [5285346] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:10:40  [5296669] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 19:10:40  [5296669] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 19:10:40  [5296669] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 19:10:40  [5296669] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 19:10:40  [5296669] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:10:40  [5296669] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 19:10:40  [5296669] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:11:09  [5297087] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:11:09  [5297087] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 19:11:09  [5297087] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:11:22  [5297584] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:11:22  [5297584] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 19:11:22  [5297584] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:11:22  [5297584] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:11:22  [5297584] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 19:11:22  [5297584] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:11:29  [5297584] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:11:29  [5297584] SELECT `username`,`password` FROM `user` t0
+2021-08-15 19:11:29  [5297584] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:16:37  [5308713] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:16:37  [5308713] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 19:16:37  [5308713] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 19:17:10  [5309766] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 19:17:10  [5309766] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 19:17:10  [5309766] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 20:57:39  [5565398] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 20:57:39  [5565398] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 20:57:39  [5565398] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 21:02:15  [5576537] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 21:02:15  [5576537] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 21:02:15  [5576537] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 21:02:15  [5576537] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 21:02:15  [5576537] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 21:02:15  [5576537] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 21:02:15  [5576537] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 21:02:22  [5576537] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 21:02:22  [5576537] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 21:02:22  [5576537] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 21:02:35  [5576537] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 21:02:35  [5576537] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 21:02:35  [5576537] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 21:02:35  [5576537] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 21:02:35  [5576537] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 21:02:35  [5576537] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 21:02:43  [5576537] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 21:02:43  [5576537] SELECT `username`,`password` FROM `user` t0
+2021-08-15 21:02:43  [5576537] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 21:03:20  [5580187] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 21:03:20  [5580187] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 21:03:20  [5580187] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 21:03:50  [5581685] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 21:03:50  [5581685] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 21:03:50  [5581685] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 22:35:48  [5684419] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 22:35:48  [5684419] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 22:35:48  [5684419] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 22:35:48  [5684419] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 22:35:48  [5684419] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 22:35:48  [5684419] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-15 22:35:48  [5684419] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 22:36:24  [5688280] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 22:36:24  [5688280] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 22:36:24  [5688280] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 22:36:24  [5688280] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 22:36:24  [5688280] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 22:36:25  [5688280] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 22:36:25  [5688280] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 22:37:06  [5691960] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 22:37:06  [5691960] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 22:37:06  [5691960] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 22:43:34  [5724010] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-15 22:43:34  [5724010] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 22:43:34  [5724010] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-15 22:43:34  [5724010] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-15 22:43:34  [5724010] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-15 22:43:34  [5724010] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 22:43:34  [5724010] [COMMIT] [databaseId:0] rdb00_127
+2021-08-15 22:43:45  [5725125] [BEGIN] [databaseId:0] rdb00_127
+2021-08-15 22:43:45  [5725125] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-15 22:43:45  [5725125] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 01:57:35  [6339648] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 01:57:35  [6339648] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 01:57:35  [6339648] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 01:57:35  [6339648] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 01:57:35  [6339648] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 01:57:36  [6339648] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='' LIMIT 1
+2021-08-16 01:57:36  [6339648] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 01:57:36  [6339648] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:04:40  [6353215] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:04:40  [6353215] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:04:40  [6353215] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:04:40  [6353215] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:04:40  [6353215] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:04:40  [6353215] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='' LIMIT 1
+2021-08-16 02:04:40  [6353215] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:04:40  [6353215] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:04:57  [6353847] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:04:57  [6353847] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='' LIMIT 1
+2021-08-16 02:04:57  [6353847] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:04:57  [6353847] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:05:05  [6353847] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:05:05  [6353847] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:05:05  [6353847] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:05:05  [6353847] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:05:05  [6353847] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:05:05  [6353847] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:05:05  [6353847] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:05:36  [6355785] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:05:36  [6355785] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:05:36  [6355785] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:05:36  [6355785] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:05:36  [6355785] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:05:36  [6355785] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:05:36  [6355785] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:05:36  [6355785] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:05:53  [6356183] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:05:53  [6356183] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:05:53  [6356183] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:05:53  [6356183] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:05:53  [6356183] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:05:53  [6356183] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:05:53  [6356183] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:07:17  [6358516] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:07:17  [6358516] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:07:17  [6358516] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:07:17  [6358516] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:07:17  [6358516] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:07:17  [6358516] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:07:17  [6358516] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:07:25  [6358516] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:07:25  [6358516] SELECT `username`,`password` FROM `user` t0
+2021-08-16 02:07:25  [6358516] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:07:33  [6358516] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:07:33  [6358516] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:07:33  [6358516] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:07:36  [6358516] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:07:36  [6358516] SELECT `username`,`password` FROM `user` t0
+2021-08-16 02:07:36  [6358516] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:07:43  [6358516] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:07:43  [6358516] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:07:43  [6358516] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:07:43  [6358516] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:18  [6360679] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:08:18  [6360679] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:08:18  [6360679] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:08:18  [6360679] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:08:18  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:19  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:19  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:19  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:19  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:19  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:19  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:19  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:20  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:20  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:20  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:20  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:21  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:21  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:21  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:21  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:21  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:21  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:21  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:21  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:21  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:21  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:21  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:21  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:24  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:24  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:24  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:24  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:34  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:34  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:34  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:34  [6360679] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:34  [6360679] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:08:34  [6360679] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:08:34  [6360679] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:08:47  [6361496] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:08:47  [6361496] SELECT `username`,`password` FROM `user` t0
+2021-08-16 02:08:47  [6361496] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:09:02  [6361496] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:09:02  [6361496] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='' LIMIT 1
+2021-08-16 02:09:02  [6361496] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:09:02  [6361496] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:09:14  [6361496] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:09:14  [6361496] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:09:14  [6361496] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:09:14  [6361496] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:09:14  [6361496] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:09:14  [6361496] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:09:14  [6361496] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:10:24  [6364589] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:10:24  [6364589] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:10:24  [6364589] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:10:24  [6364589] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:10:24  [6364589] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:10:24  [6364589] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:10:24  [6364589] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:10:24  [6364589] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:10:25  [6364589] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:10:25  [6364589] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:10:25  [6364589] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:10:25  [6364589] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:10:26  [6364589] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:10:26  [6364589] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:10:26  [6364589] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:10:26  [6364589] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:10:29  [6364589] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:10:29  [6364589] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:10:29  [6364589] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:10:29  [6364589] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:10:38  [6364589] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:10:38  [6364589] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:10:38  [6364589] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:10:38  [6364589] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:10:38  [6364589] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:10:38  [6364589] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:10:38  [6364589] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:17:52  [6377056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:17:52  [6377056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:17:52  [6377056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:17:52  [6377056] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:17:52  [6377056] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:17:52  [6377056] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:17:52  [6377056] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:17:52  [6377056] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:17:59  [6377056] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:17:59  [6377056] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:17:59  [6377056] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:17:59  [6377056] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:17:59  [6377056] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:17:59  [6377056] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:17:59  [6377056] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:10  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:10  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:10  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:10  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:10  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:10  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:10  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:10  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:10  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:11  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:11  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:11  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:11  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:11  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:11  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:11  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:11  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:18:11  [6377515] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:18:11  [6377515] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:18:11  [6377515] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:21:52  [6383641] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:21:52  [6383641] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:21:52  [6383641] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:21:52  [6383641] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:21:52  [6383641] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:21:52  [6383641] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:21:52  [6383641] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:21:52  [6383641] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:22:01  [6383641] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:22:01  [6383641] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:22:01  [6383641] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:22:01  [6383641] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:22:01  [6383641] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:22:01  [6383641] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:22:01  [6383641] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:24:20  [6387684] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:24:20  [6387684] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:24:20  [6387684] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:24:20  [6387684] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:24:20  [6387684] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:24:20  [6387684] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:24:20  [6387684] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:31:12  [6401185] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:31:12  [6401185] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:31:12  [6401185] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:31:12  [6401185] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:31:12  [6401185] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:31:12  [6401185] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:31:12  [6401185] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:31:12  [6401185] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:31:12  [6401185] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:31:12  [6401185] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:31:29  [6402036] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:31:29  [6402036] SELECT `username`,`password` FROM `user` t0
+2021-08-16 02:31:29  [6402036] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:32:14  [6403769] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:32:14  [6403769] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:32:14  [6403769] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:32:14  [6403769] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:32:14  [6403769] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:32:14  [6403769] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:41:24  [6420043] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:41:24  [6420043] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:41:24  [6420043] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:41:24  [6420043] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:41:24  [6420043] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:41:24  [6420043] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:41:24  [6420043] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:41:24  [6420043] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:41:24  [6420043] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:41:24  [6420043] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:47:53  [6430944] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:47:53  [6430944] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:47:53  [6430944] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:47:53  [6430944] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:47:53  [6430944] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:47:53  [6430944] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:47:53  [6430944] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:47:53  [6430944] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:47:53  [6430944] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:47:53  [6430944] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:58:07  [6451259] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 02:58:07  [6451259] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 02:58:07  [6451259] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 02:58:07  [6451259] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 02:58:07  [6451259] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:58:08  [6451259] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 02:58:08  [6451259] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:58:08  [6451259] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:58:08  [6451259] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:58:08  [6451259] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:59:18  [6453254] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:59:18  [6453254] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:59:18  [6453254] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:59:21  [6453254] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:59:21  [6453254] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-16 02:59:21  [6453254] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:59:23  [6453254] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:59:23  [6453254] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:59:23  [6453254] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:59:25  [6453254] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:59:25  [6453254] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0 WHERE t0.`id`=1 LIMIT 1
+2021-08-16 02:59:25  [6453254] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 02:59:27  [6453254] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 02:59:27  [6453254] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 02:59:27  [6453254] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 03:01:57  [6458683] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 03:01:57  [6458683] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 03:01:57  [6458683] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 03:01:57  [6458683] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 03:01:57  [6458683] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 03:01:57  [6458683] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 03:01:57  [6458683] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 03:02:44  [6460763] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 03:02:44  [6460763] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 03:02:44  [6460763] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 03:02:44  [6460763] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 03:02:44  [6460763] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 03:02:44  [6460763] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 03:02:44  [6460763] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 03:02:44  [6460763] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 03:02:44  [6460763] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 03:02:44  [6460763] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 03:09:36  [6472053] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA journal_mode=WAL' at line 1] PRAGMA journal_mode=WAL
+2021-08-16 03:09:36  [6472053] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA foreign_keys=ON' at line 1] PRAGMA foreign_keys=ON
+2021-08-16 03:09:36  [6472053] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA synchronous=NORMAL' at line 1] PRAGMA synchronous=NORMAL
+2021-08-16 03:09:36  [6472053] (Query failed) [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PRAGMA busy_timeout=5000' at line 1] PRAGMA busy_timeout=5000
+2021-08-16 03:09:36  [6472053] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 03:09:36  [6472053] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 03:09:36  [6472053] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 03:09:36  [6472053] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 03:09:36  [6472053] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 03:09:36  [6472053] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 03:09:42  [6472053] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 03:09:42  [6472053] SELECT `username`,`password` FROM `user` t0 WHERE t0.`username`='gkp' LIMIT 1
+2021-08-16 03:09:42  [6472053] [COMMIT] [databaseId:0] rdb00_127
+2021-08-16 03:09:42  [6472053] [BEGIN] [databaseId:0] rdb00_127
+2021-08-16 03:09:42  [6472053] SELECT `id`,`title`,`body`,`created_at`,`updated_at`,`lock_revision` FROM `blog` t0
+2021-08-16 03:09:42  [6472053] [COMMIT] [databaseId:0] rdb00_127

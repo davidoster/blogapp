@@ -1,0 +1,31 @@
+HEADERS += account_formView.moc
+SOURCES += account_formView.cpp
+HEADERS += blog_createView.moc
+SOURCES += blog_createView.cpp
+HEADERS += blog_indexView.moc
+SOURCES += blog_indexView.cpp
+HEADERS += blog_saveView.moc
+SOURCES += blog_saveView.cpp
+HEADERS += blog_showView.moc
+SOURCES += blog_showView.cpp
+HEADERS += user_createView.moc
+SOURCES += user_createView.cpp
+HEADERS += user_indexView.moc
+SOURCES += user_indexView.cpp
+HEADERS += user_saveView.moc
+SOURCES += user_saveView.cpp
+HEADERS += user_showView.moc
+SOURCES += user_showView.cpp
+
+# include view files in the project
+views.files += ../account/form.erb
+views.files += ../blog/create.erb
+views.files += ../blog/index.erb
+views.files += ../blog/save.erb
+views.files += ../blog/show.erb
+views.files += ../user/create.erb
+views.files += ../user/index.erb
+views.files += ../user/save.erb
+views.files += ../user/show.erb
+views.path = .dummy
+INSTALLS += views

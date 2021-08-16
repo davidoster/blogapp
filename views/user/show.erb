@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<%#include "objects/user.h" %>
+<% tfetch(User, user); %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+<p style="color: red"><%=$ error %></p>
+<p style="color: green"><%=$ notice %></p>
+
+<h1>Showing User</h1>
+<dt>Username</dt><dd><%= user.username() %></dd><br />
+<dt>Password</dt><dd><%= user.password() %></dd><br />
+
+<%== linkTo("Edit", urla("save", user.username())) %> |
+<%== linkTo("Back", urla("index")) %>
+
+</body>
+</html>
